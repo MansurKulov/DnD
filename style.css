@@ -1,0 +1,116 @@
+* {
+    list-style-type: none;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: rgb(76, 175, 80);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    background:
+        linear-gradient(rgba(76, 175, 80, 0.7), rgba(76, 175, 80, 0.8)),
+        url(https://mylarpworld.com/wp-content/uploads/2023/02/Kalameet_Fantasy_knight_144461eb-f809-4ba4-ac7c-dd292646776e-3-1536x768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+main {
+    padding: 0 5vw;
+}
+
+section {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #4caf50;
+}
+
+h3 {
+    margin: 25px 0 10px 0;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5vw;
+}
+
+ul {
+    margin: 0;
+    padding: 40px 30px;
+    display: grid;
+    gap: 15px;
+    background-color: #222;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contacts {
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+}
